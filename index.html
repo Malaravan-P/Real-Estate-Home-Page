@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="flex items-center gap-3 font-semibold mt-3 mx-6">
+        <!-- Logo & Name -->
+        <img src="logo.jpg" alt="" class="w-12 rounded-full">
+        <h2 class="text-lg">RealState</h2>
+        <!-- Navs -->
+        <div class="flex ml-[430px] gap-8 text-neutral-500 focus:text-black font-medium transition-all">
+            <h2 class="text-black hover:cursor-pointer transition-all">Home</h2>
+            <h2 class="hover:text-black hover:cursor-pointer transition-all">Lands</h2>
+            <h2 class="hover:text-black hover:cursor-pointer transition-all">Property</h2>
+            <h2 class="hover:text-black hover:cursor-pointer transition-all">Pages</h2>
+        </div>
+        <!-- Login, button, filter -->
+        <div class="flex gap-6 items-center ">
+            <!-- Login or Signup-->
+            <div class="flex gap-1 items-center ml-10 text-neutral-500 font-medium">
+                <i class="bi bi-person-circle text-xl"></i> 
+                <div class="flex gap-1">
+                    <h2 class="hover:text-black transition-all">Login</h2>
+                    <h2>|</h2>
+                    <h2 class="hover:text-black transition-all">Signup</h2>
+                </div>
+            </div>
+            <!-- add-button, filter -->
+             <div class="flex  gap-2 ">
+                <button class="border-1 hover:bg-black transition-all bg-neutral-700 text-white font-medium px-5 py-3 rounded-4xl"> Upload Land</button>
+                <button class=""><i class="border-1 border-neutral-400 px-2.5 py-2 rounded-full bi bi-filter text-neutral-400 text-xl hover:cursor-pointer"></i></button>
+             </div>
+        </div>
+    </div>
+
+    <!-- explore content -->    
+    <div class="flex flex-wrap mt-4 mx-6">
+        <!-- left content -->
+        <div class="absolute bottom-20 left-18">
+            <h1 class="text-[80px] text-white">Buy, Rent, & Sell</h1>
+            <h1 class="text-[80px] mt-[-35px] text-white">Property</h1>
+            <div class="hover:cursor-pointer flex items-center gap-3 w-[248px] mt-1 py-2 px-6 bg-white rounded-full">
+                <button class="font-light text-xl">Explore all Property</button>
+                <i class="bi bi-arrow-up-right text-xl"></i>
+            </div>
+        </div>
+        <!-- right content -->
+        <div class="absolute w-[390px] h-[480px]  right-18 bottom-[80px] rounded-3xl p-5 bg-white">
+            <h1 class="text-[26px] font-semibold">Find the Best Property according to your preference!</h1>
+            <!-- Inputs -->
+            <div class="absolute">
+                <!-- Inputs 1 -->
+                <h2 class="text-lg font-medium mt-4 text-neutral-500">Location</h2>
+                <div class="flex border-1 w-[350px] border-neutral-500 rounded-xl items-center p-3 mt-1 gap-3">
+                    <i class="bi bi-geo-alt-fill text-xl text-neutral-400"></i>
+                    <input type="search" placeholder="Select location" class="font-medium text-neutral-400 text-[16px]">
+                    <i class="ml-14 bi bi-chevron-down right-0 text-neutral-400"></i>
+                </div>
+                <!-- Inputs 2 -->
+                <h2 class="text-lg font-medium mt-2 text-neutral-500">Property Type</h2>
+                <div class="flex border-1 w-[350px] border-neutral-500 rounded-xl items-center p-3 mt-1 gap-3">
+                    <i class="bi bi-geo-alt-fill text-xl text-neutral-400"></i>
+                    <input type="search" placeholder="Select location" class="font-medium text-neutral-400 text-[16px]">
+                    <i class="ml-14 bi bi-chevron-down right-0 text-neutral-400"></i>
+                </div>
+                <!-- Inputs 3 -->
+                <h2 class="text-lg font-medium mt-2 text-neutral-500">Max Price</h2>
+                <div class="flex border-1 w-[350px] border-neutral-500 rounded-xl items-center p-3 mt-1 gap-3">
+                    <i class="bi bi-geo-alt-fill text-xl text-neutral-400"></i>
+                    <input type="search" placeholder="Select location" class="font-medium text-neutral-400 text-[16px]">
+                    <i class="ml-14 bi bi-chevron-down right-0 text-neutral-400"></i>
+                </div>
+                <!-- send -->
+                 <button class="w-full mt-4 text-xl rounded-full hover:bg-black transition-all bg-neutral-700 text-white font-light p-2"> Search</button>
+            </div>
+        </div>
+        <!-- Bg-Image -->
+        <img src="img.jpg" alt="" class=" w-[1270px] h-[600px] rounded-3xl">
+    </div>
+
+
+    <!-- Sub-Heading 1 -->
+     <div class="flex justify-evenly mt-8 mx-18">
+        <!-- left -->
+        <div class="text-5xl p-10">
+            <h1>1500+ People </h1>
+            <h1 class="mt-2">Trusted Us.</h1>
+            <!-- profiles -->
+            <div class="flex gap-1 w-10 mt-6">
+                <img src="p1.jpg" class="rounded-full" alt="">
+                <img src="p2.jpg" class="rounded-full ml-[-10px]" alt="">
+                <img src="p3.jpg" class="rounded-full ml-[-10px]" alt="">
+                <img src="p4.jpg" class="rounded-full ml-[-10px]" alt="">
+            </div>
+            <p class="text-[12px] mt-2 underline">Overall Rating(4.7)</p>
+        </div>
+        <!-- right -->
+        <div class="text-lg w-xl p-10">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo aperiam deleniti itaque sequi aspernatur inventore facilis Natus non sed est.</p>
+            <!-- Button -->
+            <div class="flex gap-5 mt-6">
+                <button class=" hover:bg-black hover:text-white transition-all border-2 w-fit px-5 py-3 rounded-full">More About Us</button>
+                <div class="flex gap-3 border-2 w-fit px-5 py-3 rounded-full hover:bg-black hover:text-white transition-all">
+                    <button class="">Contact us</button>
+                    <i class="bi bi-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+
+    <!-- Sub-Heading 2 -->
+    <div class="mx-12  mt-10">
+        <!-- Heading -->
+        <div>
+            <div class="flex gap-[846px] items-center">
+                <h1 class="text-4xl">Popular Listings</h1>
+                <div class="flex gap-1 border-1 px-4 py-2 rounded-full hover:bg-black hover:text-white transition-all">
+                    <button class="">Explore All</button>
+                    <i class="bi bi-arrow-up-right"></i>
+                </div>
+            </div>
+            <p class="mt-2">Explore latest and featured properties for rent, sell & Mortage</p>
+        </div>
+        <!-- Explore page -->
+        <div class="flex justify-evenly mt-6">
+            <!-- Image 1 -->
+            <div class="w-[375px] h-[375px] border-1 border-neutral-400 rounded-2xl hover:shadow-lg" >
+                <img src="h1.jpg" class="w-[375px] h-[250px] rounded-t-2xl" alt="">
+                <div class="flex justify-between right-10">
+                    <div class="p-4">
+                        <h1 class="text-2xl font-semibold">$2595 <span class="text-xl text-neutral-500">/month</span></h1>
+                        <h2 class="font-medium text-xl">Silverwood Manor</h2>
+                        <p class="text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="p-4">
+                        <i class="bi bi-bookmark-heart text-3xl text-neutral-400 hover:text-red-400 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="w-[375px] h-[375px] border-1 border-neutral-400 rounded-2xl hover:shadow-lg" >
+                <img src="h2.jpg" class="w-[375px] h-[250px] rounded-t-2xl" alt="">
+                <div class="flex justify-between right-10">
+                    <div class="p-4">
+                        <h1 class="text-2xl font-semibold">$3040 <span class="text-xl text-neutral-500">/month</span></h1>
+                        <h2 class="font-medium text-xl">The Oakridge Villa</h2>
+                        <p class="text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="p-4">
+                        <i class="bi bi-bookmark-heart text-3xl text-neutral-400 hover:text-red-400 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="w-[375px] h-[375px] border-1 border-neutral-400 rounded-2xl hover:shadow-lg" >
+                <img src="h3.jpg" class="w-[375px] h-[250px] rounded-t-2xl" alt="">
+                <div class="flex justify-between right-10">
+                    <div class="p-4">
+                        <h1 class="text-2xl font-semibold">$4500 <span class="text-xl text-neutral-500">/month</span></h1>
+                        <h2 class="font-medium text-xl">Cedear Groove Estate</h2>
+                        <p class="text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="p-4">
+                        <i class="bi bi-bookmark-heart text-3xl text-neutral-400 hover:text-red-400 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Row 2 -->
+        <div class="flex justify-evenly mt-8">
+            <!-- Image 4 -->
+            <div class="w-[375px] h-[375px] border-1 border-neutral-400 rounded-2xl hover:shadow-lg" >
+                <img src="h4.jpg" class="w-[375px] h-[250px] rounded-t-2xl" alt="">
+                <div class="flex justify-between right-10">
+                    <div class="p-4">
+                        <h1 class="text-2xl font-semibold">$2750 <span class="text-xl text-neutral-500">/month</span></h1>
+                        <h2 class="font-medium text-xl">Blueball Estate</h2>
+                        <p class="text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="p-4">
+                        <i class="bi bi-bookmark-heart text-3xl text-neutral-400 hover:text-red-400 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="w-[375px] h-[375px] border-1 border-neutral-400 rounded-2xl hover:shadow-lg" >
+                <img src="h5.jpg" class="w-[375px] h-[250px] rounded-t-2xl" alt="">
+                <div class="flex justify-between right-10">
+                    <div class="p-4">
+                        <h1 class="text-2xl font-semibold">$3575 <span class="text-xl text-neutral-500">/month</span></h1>
+                        <h2 class="font-medium text-xl">Mount hill Estate</h2>
+                        <p class="text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="p-4">
+                        <i class="bi bi-bookmark-heart text-3xl text-neutral-400 hover:text-red-400 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="w-[375px] h-[375px] border-1 border-neutral-400 rounded-2xl hover:shadow-lg" >
+                <img src="h6.jpg" class="w-[375px] h-[250px] rounded-t-2xl" alt="">
+                <div class="flex justify-between right-10">
+                    <div class="p-4">
+                        <h1 class="text-2xl font-semibold">$4575 <span class="text-xl text-neutral-500">/month</span></h1>
+                        <h2 class="font-medium text-xl">River side residences</h2>
+                        <p class="text-sm text-neutral-400">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="p-4">
+                        <i class="bi bi-bookmark-heart text-3xl text-neutral-400 hover:text-red-400 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto flex items-center gap-1 mt-6 border-1 hover:bg-black transition-all text-neutral-500 hover:text-white border-neutral-500 px-4 py-2 w-fit rounded-full">
+            <button class="font-semibold"> View More </button>
+            <i class="bi bi-chevron-down font-semibold"></i>
+        </div> 
+    </div>
+
+
+
+    <!-- Sub-Heading 3 -->
+    <div class="mx-12  mt-12 mb-12">
+        <!-- Heading -->
+        <div>
+            <div class="flex gap-[846px] items-center">
+                <h1 class="text-4xl">Popular Cities</h1>
+                <div class="flex gap-1 border-1 px-4 py-2 rounded-full hover:bg-black hover:text-white transition-all">
+                    <button class="">Explore All</button>
+                    <i class="bi bi-arrow-up-right"></i>
+                </div>
+            </div>
+            <p class="mt-2">Explore latest and featured properties for rent, sell & Mortage</p>
+        </div>
+        <!-- Explore page -->
+         <div class="flex justify-evenly mt-8">
+            <!-- Image 1 -->
+            <div class="">
+                <img src="Canada.jpg" class="w-[200px] h-[200px] rounded-full hover:shadow-xl transition-all" alt="">
+                <h2 class="text-neutral-500 mt-3 text-xl w-fit mx-auto">Canada</h2>
+            </div>
+            <!-- Image 2 -->
+            <div class="">
+                <img src="USA.jpg" class="w-[200px] h-[200px] rounded-full hover:shadow-xl transition-all" alt="">
+                <h2 class="text-neutral-500 mt-3 text-xl w-fit mx-auto">USA</h2>
+            </div>
+            <!-- Image 3 -->
+            <div class="">
+                <img src="Austraila.jpg" class="w-[200px] h-[200px] rounded-full hover:shadow-xl transition-all" alt="">
+                <h2 class="text-neutral-500 mt-3 text-xl w-fit mx-auto">Australia</h2>
+            </div>
+            <!-- Image 4 -->
+            <div class="">
+                <img src="Dubai.jpg" class="w-[200px] h-[200px] rounded-full hover:shadow-xl transition-all" alt="">
+                <h2 class="text-neutral-500 mt-3 text-xl w-fit mx-auto">Dubai</h2>
+            </div>
+            <!-- Image 4 -->
+            <div class="">
+                <img src="India.jpg" class="w-[200px] h-[200px] rounded-full hover:shadow-xl transition-all" alt="">
+                <h2 class="text-neutral-500 mt-3 text-xl w-fit mx-auto">India</h2>
+            </div>
+         </div>
+     </div> 
+     
+    <!-- Footer 1 -->
+    <div class="w-full h-[225px] p-5 bg-black text-neutral-400 flex justify-evenly">
+        <div class="flex text-2xl gap-3  py-5 w-fit">
+            <i class="bi bi-instagram hover:text-white transition-all"></i>
+            <i class="bi bi-twitter-x hover:text-white transition-all"></i>
+            <i class="bi bi-facebook hover:text-white transition-all"></i>
+            <i class="bi bi-whatsapp hover:text-white transition-all"></i>
+            <i class="bi bi-linkedin hover:text-white transition-all"></i>
+        </div>
+        <div class="text-neutral-400">
+            <div>
+                <h1 class="py-2 w-[150px] border-b-2 mb-3 border-neutral-400 text-white">Explore</h1>
+
+                <h2 class="my-2 hover:text-white transition-all">Home</h2>
+                <h2 class="my-2 hover:text-white transition-all">About Us</h2>
+                <h2 class="my-2 hover:text-white transition-all">Contact Us</h2>
+                <h2 class="my-2 hover:text-white transition-all">Terms & Conditions</h2>
+                <h2 class="my-2 hover:text-white transition-all">Privacy Policy</h2>
+            </div>
+            
+        </div>
+        <div class="text-neutral-400">
+            <div class="">
+                <h1 class="py-2 w-[150px] border-b-2 mb-3 border-neutral-400 text-white">Partner Sites</h1>
+
+                <h2 class="my-2 hover:text-white transition-all">Retirement Homes</h2>
+                <h2 class="my-2 hover:text-white transition-all">Business Centers</h2>
+                <h2 class="my-2 hover:text-white transition-all">Co living</h2>
+                <h2 class="my-2 hover:text-white transition-all">Pg hostels</h2>
+            </div>
+            
+        </div>
+        <div class="text-neutral-400">
+            <div>
+                <h1 class="py-2 w-[150px] border-b-2 mb-3 border-neutral-400 text-white">Get in Touch</h1>
+
+                <h2 class="my-2">Get in Touch with us, we would be more than happy to help</h2>
+                <h2 class="my-2">Phone: +91 9876543210</h2>
+            </div>
+            
+        </div>
+        
+    </div> 
+    <!-- Footer 2-->    
+    <div class="w-full h-[75px] bg-black text-neutral-400">
+        <p class="w-fit mx-auto pt-7 pb-0">Copyright 2025 | All rights reserved.</p>
+    </div>
+</body>
+</html>
